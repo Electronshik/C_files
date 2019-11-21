@@ -1,2 +1,2 @@
 # C_files
-Not a project, just a files
+Not a project, simple files
