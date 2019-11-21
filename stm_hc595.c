@@ -37,7 +37,7 @@
 #define     CLEAR   0x00
 #define     DOT     0x80
 #define     MINUS   0x40
-#define     CH_O    0x63    //градус
+#define     CH_O    0x63   //градус
 #define     CH_o    0x5C
 #define     CH_A    0x77
 #define     CH_b    0x7C
@@ -98,7 +98,7 @@ char display[WIDTH];
 void hc595_timer_gpio_init(void);
 
 //функция работы динамической индикации, сдвигает индикацию на следующий символ по кругу
-//вызывать например каждую миллисекунду
+//вызывать, например, каждую миллисекунду
 void hc595_clock();
 
 void TIM4_IRQHandler()
